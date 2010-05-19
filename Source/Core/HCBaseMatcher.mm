@@ -21,7 +21,7 @@
 - (void) subclassResponsibility:(SEL)command
 {
     [NSException raise:NSGenericException
-                format:@"-[%@  %s] not implemented", [self className], command];
+                format:@"-[%@  %s] not implemented", [[self class] description], command];
 }
 
 @end
