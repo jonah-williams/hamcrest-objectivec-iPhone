@@ -13,7 +13,7 @@
 #import "HCMatcher.h"
 
     // Objective-C
-#import <objc/objc-class.h>
+#import <objc/runtime.h>
 
 
 namespace {
